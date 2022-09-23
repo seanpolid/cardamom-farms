@@ -21,8 +21,9 @@
     nav a:hover, nav a:focus {color: #980404;}
 
     /* Virtual tour */
-    .virtualTour {height: 376px;}
-    .virtualTour h2 {color: #980404;}
+    .virtualTour {height: 376px; display: flex; flex-direction: column; align-items: center; padding-top: 98px; color: #980404;}
+    .virtualTour h2 {color: #980404; margin-bottom: 49px;}
+    .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none;}
 }
 
 /* For internet explorer 11 compatability */
