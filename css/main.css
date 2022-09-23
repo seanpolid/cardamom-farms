@@ -1,6 +1,10 @@
 /* General */
 
 @media all {
+
+    header, main, section, nav, footer, aside, article {display: block;}
+    body {font: 400 16px/1.3 'Noto Sans JP',  sans-serif; color: #000; margin: 0; padding: 0; box-sizing: border-box;}
+    h2 {font: 300 35px/1 'Averia Serif Libre';}
     
 }
 
@@ -34,5 +38,5 @@
 }
 
 @media print {
-    
+
 }
