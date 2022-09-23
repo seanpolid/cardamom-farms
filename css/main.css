@@ -1,0 +1,38 @@
+/* General */
+
+@media all {
+    
+}
+
+@media screen {
+
+}
+
+/* For internet explorer 11 compatability */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+@media print {
+    
+}
