@@ -24,7 +24,7 @@
     .virtualTour {height: 376px; display: flex; flex-direction: column; align-items: center; padding-top: 98px; color: #980404;}
     .virtualTour h2 {color: #980404; margin-bottom: 49px;}
     .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none;}
-
+    .virtualTour a:hover, .virtualTour a:focus {background-color: #980404; color: #fff;}
     /* Farm fresh section */
     .farmFresh {display: flex; flex-direction: row; justify-content: center;}
     .farmFresh div {display: flex; flex-direction: column; align-items: center; width: 520px;}
@@ -37,15 +37,20 @@
     hr {margin-top: 39px; display: block; border: 4px solid #FC0;}
     .saturdayMarket {margin-top: 60px;}
     .saturdayMarket>div {display: flex; justify-content: center;}
-    .saturdayMarket>div div {width: calc(1040px * 0.48);}
+    .saturdayMarket>div:first-child div {width: calc(1040px * 0.48);}
     .saturdayMarket>div:first-child a {margin-left: 40px;}
     .saturdayMarket h2 {margin: 0; line-height: 45px; margin-bottom: 30px;}
     .saturdayMarket>div div p {margin: 0;}
+    .saturdayMarket>div:last-child {margin-top: 40px;}
     .saturdayMarket>div:last-child div {display: flex; flex-direction: column; align-items: center;}
+    .saturdayMarket>div:last-child div:nth-child(2) {margin: 0 35px;}
+    .saturdayMarket>div:last-child a {width: 323px;}
+    .saturdayMarket>div:last-child div p {margin-top: 20px;}
     #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center; background-size: cover; width: 500px; min-height: 314px;}
-    #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center; background-size: cover; width: 250px; min-height: 250px;}
-    #facePaintingPhoto {background: url("../layout1-assets/face-painting.webp") no-repeat center; width: 250px; min-height: 250px;}
-    #cauliflowerPhoto {background: url("../layout1-assets/cauliflower.webp") no-repeat center; width: 250px; min-height: 250px;}
+    #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center; background-size: cover; min-height: 250px;}
+    #facePaintingPhoto {background: url("../layout1-assets/face-painting.webp") no-repeat center; background-size: cover; min-height: 250px;}
+    #cauliflowerPhoto {background: url("../layout1-assets/cauliflower.webp") no-repeat center; background-size: cover; min-height: 250px;}
+
 }
 
 /* For internet explorer 11 compatability */
