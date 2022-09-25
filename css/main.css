@@ -13,6 +13,7 @@
     .container {width: 1040px; margin: 0 auto;}
     main {position: relative; top: 448px;}
     hr {position: absolute; top: 1615px; display: block; border: 4px solid #FC0; width: 100%;}
+    header h1, footer>div:nth-child(2) span {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
 
     /* Images and elements that span the whole background */
     #heroImage {position: absolute; background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%; z-index: -100;}
@@ -21,13 +22,12 @@
     #eventSpacesStripe {position: absolute; top: 3279px; height: 375px; background-color: #228500; width: 100%;}
 
     /* Masthead section*/
-    header h1 {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
-    #logo-first-word {font-weight: 700; font-size: 54px; margin-top: 14px;}
-    #logo-second-word {font-weight: 400; font-size: 43px; margin-top: 4px;}
-    nav ul {display: flex; justify-content: center; list-style: none; margin: 25px 0 0 -38px;}
-    nav ul li {margin: 0 15px;}
-    nav a {text-decoration: none; color: #000; font: 700 16px/1 'Averia Serif Libre';}
-    nav a:hover, nav a:focus {color: #980404;}
+    .logoFirstWord {font-weight: 700; font-size: 54px; margin-top: 14px;}
+    .logoSecondWord {font-weight: 400; font-size: 43px; margin-top: 4px;}
+    header nav ul {display: flex; justify-content: center; list-style: none; margin: 25px 0 0 -38px;}
+    header nav ul li {margin: 0 15px;}
+    header nav a {text-decoration: none; color: #000; font: 700 16px/1 'Averia Serif Libre';}
+    header nav a:hover, nav a:focus {color: #980404;}
 
     /* Virtual tour section*/
     .virtualTour {height: 376px; display: flex; flex-direction: column; align-items: center; padding-top: 98px; color: #980404;}
@@ -75,6 +75,16 @@
     .eventSpaces>div div:nth-child(2) {margin: 0 52px;}
     .eventSpaces h3 {font-size: 16px;}
     .eventSpaces p {line-height: 1.6; font-weight: 300;}
+
+    /* Footer */
+    footer {display: flex; justify-content: space-between; margin-top: 568px;}
+    footer nav, footer div {width: 32%;}
+    footer ul {list-style: none; padding: 0;}
+    footer nav li {margin-bottom: 16px;}
+    .companyInfo p {text-align: center;}
+    .companyInfo p:nth-child(2) {margin-top: 42px;}
+    .companyInfo p:nth-child(3) {margin-top: 19px;}
+    
 }
 
 /* For internet explorer 11 compatability */
