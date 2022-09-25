@@ -12,7 +12,7 @@
 
     .container {width: 1040px; margin: 0 auto;}
     main {position: relative; top: 448px;}
-    hr {position: absolute; top: 1615px; display: block; border: 4px solid #FC0; width: 100%;}
+    hr {position: absolute; top: 1615px; display: block; border: 4px solid #FC0; width: 100%; box-sizing: border-box;}
     header h1, footer>div:nth-child(2) span {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
 
     /* Images and elements that span the whole background */
