@@ -16,6 +16,8 @@
 
     /* Background images */
     #heroImage {position: absolute; background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%; z-index: -100;}
+    #vegetableImage {position: absolute; background: url("../layout1-assets/vegetables.webp") no-repeat center; background-size: cover; height: 409px; width: 100%; z-index: -100; top: 2395px;}
+    #redStripe {position: absolute; top: 2804px; height: 161px; background-color: #530001; width: 100%;}
 
     /* Masthead section*/
     header h1 {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
@@ -49,14 +51,21 @@
     .saturdayMarket>div div p {margin: 0;}
     .saturdayMarket>div:last-child {margin-top: 40px;}
     .saturdayMarket>div:last-child div {display: flex; flex-direction: column; align-items: center;}
-    .saturdayMarket>div:last-child div:nth-child(2) {margin: 0 35px;}
-    .saturdayMarket>div:last-child a {width: 323px;}
+    .saturdayMarket>div:last-child div:nth-child(2) {margin: 0 36px;}
+    .saturdayMarket>div:last-child a {width: calc(1040px * 0.31);}
     .saturdayMarket>div:last-child div p {margin-top: 21px;}
     #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center; background-size: cover; width: 500px; min-height: 314px;}
     #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center; background-size: cover; min-height: 250px;}
     #facePaintingPhoto {background: url("../layout1-assets/face-painting.webp") no-repeat center; background-size: cover; min-height: 250px;}
     #cauliflowerPhoto {background: url("../layout1-assets/cauliflower.webp") no-repeat center; background-size: cover; min-height: 250px;}
 
+    /* Farmshares */
+    .farmshares h2 {position: relative; margin-top: 530px; text-align: center;}
+    .farmshares h2 a {color: #fff; font-size: 40px; text-decoration: none;}
+    .farmshares p {margin: 120px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive; text-align: center;}
+    .farmshares form {width: 50%; margin: 40px auto 0;}
+    .farmshares input {width: 100%; border: 0; padding: 10px 5px; font-size: 12.5px; letter-spacing: 0.2px; border-bottom: 1px solid #363636;}
+    .farmshares button {position: absolute; width: 60px; height: 20px; background-image: url("../layout1-assets/sprite.webp"); background-size: cover; background-color: transparent; border: 0; top: 2605px; left: 753px; cursor: pointer;}
 }
 
 /* For internet explorer 11 compatability */
