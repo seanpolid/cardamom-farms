@@ -81,10 +81,19 @@
     footer nav, footer div {width: 32%;}
     footer ul {list-style: none; padding: 0;}
     footer nav li {margin-bottom: 16px;}
+    footer nav a {text-decoration: none; color: black;}
+    footer nav a:hover, footer nav a:focus {color: #980404;}
     .companyInfo p {text-align: center;}
-    .companyInfo p:nth-child(2) {margin-top: 42px;}
-    .companyInfo p:nth-child(3) {margin-top: 19px;}
-    
+    .companyInfo p:nth-child(2) {margin-top: 40px;}
+    .companyInfo p:nth-child(3) {margin-top: 16px;}
+    .companyInfo .logoFirstWord {margin-top: -2px;}
+    .companyInfo .logoSecondWord {margin-top: 5px;}
+    .socialMedia {display: flex; justify-content: flex-end;}
+    .socialMedia a {background-size: cover; width: 40px; max-height: 45px; display: block; margin-top: 15px;}
+    .socialMedia a:nth-child(n + 1) {margin-left: 18px;}
+    #instagramIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -115px;}
+    #twitterIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -250px;}
+    #facebookIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -398px;}
 }
 
 /* For internet explorer 11 compatability */
