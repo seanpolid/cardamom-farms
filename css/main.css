@@ -40,8 +40,8 @@
     .farmFresh div {display: flex; flex-direction: column; align-items: center;}
     .farmFresh p {text-align: center; line-height: 1.8; padding: 0 80px;}
     .farmFresh h2 {margin: 40px 0 4px;}
-    #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center; padding: 200px 260px;}
-    #squashPhoto {background: url("../layout1-assets/squash.webp") no-repeat center; padding: 200px 260px;}
+    #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center; background-size: cover; min-height: 400px; width: 520px; box-sizing: border-box;}
+    #squashPhoto {background: url("../layout1-assets/squash.webp") no-repeat center; background-size: cover; min-height: 400px; width: 520px; box-sizing: border-box;}
 
     /* Saturday market */
     .saturdayMarket {margin-top: 107px;}
@@ -101,9 +101,14 @@
 
 }
 
+/* 1060px is the first point a horizontal scrollbar appeared */
 @media screen and (max-width: 1050px) {
-
-}
+    .container {width: 100%;}
+    .saturdayMarket, .eventSpaces, footer {padding: 0 30px;}
+    #eggs, #vegatables {width: 50%; box-sizing: border-box;}
+    #chickenPhoto, #squashPhoto {width: 100%;}
+    .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto {width: 100%}
+}    
 
 @media screen and (max-width: 800px) {
 
