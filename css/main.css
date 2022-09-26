@@ -11,19 +11,14 @@
 @media screen {
 
     .container {width: 1040px; margin: 0 auto;}
-    main {position: relative; top: 448px;}
-    hr {position: absolute; top: 1615px; display: block; border: 4px solid #FC0; width: 100%; box-sizing: border-box;}
-    header h1, footer>div:nth-child(2) span {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
+    .logo {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
 
     /* Images and elements that span the whole background */
-    #heroImage {position: absolute; background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%; z-index: -100;}
-    #farmsharesImage {position: absolute; background: url("../layout1-assets/vegetables.webp") no-repeat center; background-size: cover; height: 409px; width: 100%; z-index: -100; top: 2395px;}
-    #farmsharesStripe {position: absolute; top: 2804px; height: 161px; background-color: #530001; width: 100%;}
-    #eventSpacesStripe {position: absolute; top: 3279px; height: 375px; background-color: #228500; width: 100%;}
+    header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%;}
 
     /* Masthead section*/
-    .logoFirstWord {font-weight: 700; font-size: 54px; margin-top: 14px;}
-    .logoSecondWord {font-weight: 400; font-size: 43px; margin-top: 4px;}
+    #logoFirstWord {font-weight: 700; font-size: 54px; margin-top: 14px;}
+    #logoSecondWord {font-weight: 400; font-size: 43px; margin-top: 4px;}
     header nav ul {display: flex; justify-content: center; list-style: none; margin: 25px 0 0 -38px;}
     header nav ul li {margin: 0 15px;}
     header nav a {text-decoration: none; color: #000; font: 700 16px/1 'Averia Serif Libre';}
@@ -37,14 +32,15 @@
 
     /* Farm fresh section */
     .farmFresh {display: flex; flex-direction: row; justify-content: center;}
-    .farmFresh div {display: flex; flex-direction: column; align-items: center;}
+    .farmFresh div {display: flex; flex-direction: column; align-items: center; width: calc(1040px * 0.5);}
     .farmFresh p {text-align: center; line-height: 1.8; padding: 0 80px;}
     .farmFresh h2 {margin: 40px 0 4px;}
     #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center; background-size: cover; min-height: 400px; width: 520px; box-sizing: border-box;}
     #squashPhoto {background: url("../layout1-assets/squash.webp") no-repeat center; background-size: cover; min-height: 400px; width: 520px; box-sizing: border-box;}
 
     /* Saturday market */
-    .saturdayMarket {margin-top: 107px;}
+    hr {display: block; border: 4px solid #FC0; width: 100%; box-sizing: border-box; margin-top: 38px;}
+    .saturdayMarket {margin-top: 60px;}
     .saturdayMarket>div {display: flex; justify-content: center;}
     .saturdayMarket>div:first-child div {width: calc(1040px * 0.48);}
     .saturdayMarket>div:first-child a {margin-left: 40px;}
@@ -61,24 +57,26 @@
     #cauliflowerPhoto {background: url("../layout1-assets/cauliflower.webp") no-repeat center; background-size: cover; min-height: 250px;}
 
     /* Farmshares */
-    .farmshares h2 {position: relative; margin-top: 530px; text-align: center;}
+    #farmsharesImage {background: url("../layout1-assets/vegetables.webp") no-repeat center; background-size: cover; min-height: 409px; width: 100%; display: block; margin-top: 59px;}
+    .farmshares h2 {text-align: center; background-color: #530001; padding: 60px 0; margin: 0;}
     .farmshares h2 a {color: #fff; font-size: 40px; text-decoration: none;}
-    .farmshares p {margin: 120px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive; text-align: center;}
-    .farmshares form {width: 50%; margin: 40px auto 0;}
+    .farmshares p {margin: 60px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive; text-align: center;}
+    .farmshares form {width: 50%; margin: 41px auto 0;}
     .farmshares input {width: 100%; border: 0; padding: 10px 5px; font-size: 12.5px; letter-spacing: 0.2px; border-bottom: 1px solid #363636;}
     .farmshares button {position: absolute; width: 60px; height: 20px; background-image: url("../layout1-assets/sprite.webp"); background-size: cover; background-color: transparent; border: 0; top: 2605px; left: 753px; cursor: pointer;}
 
     /* Event spaces */
-    .eventSpaces {margin-top: 120px; color: white;}
-    .eventSpaces>div {display: flex; justify-content: center; margin-top: -5px;}
-    .eventSpaces>div div {width: 30%;}
-    .eventSpaces>div div:nth-child(2) {margin: 0 52px;}
+    .eventSpaces {color: white; background-color: #228500; padding: 31px 0 60px; margin-top: 60px;}
+    .eventSpaces>div>div {display: flex; justify-content: center; margin-top: -5px;} 
+    .eventSpaces>div>div div {width: 30%;}
+    .eventSpaces>div>div div:nth-child(2) {margin: 0 52px;}
     .eventSpaces h3 {font-size: 16px;}
-    .eventSpaces p {line-height: 1.6; font-weight: 300;}
+    .eventSpaces p {line-height: 1.6; font-weight: 300; margin-top: 18px;}
 
     /* Footer */
-    footer {display: flex; justify-content: space-between; margin-top: 568px;}
-    footer nav, footer div {width: 32%;}
+    footer {margin-top: 60px;}
+    footer>div {display: flex; justify-content: space-between;}
+    footer nav, footer>div div {width: 32%;}
     footer ul {list-style: none; padding: 0;}
     footer nav li {margin-bottom: 16px;}
     footer nav a {text-decoration: none; color: black;}
@@ -104,8 +102,9 @@
 /* 1060px is the first point a horizontal scrollbar appeared */
 @media screen and (max-width: 1050px) {
     .container {width: 100%;}
-    .saturdayMarket, .eventSpaces, footer {padding: 0 30px;}
-    #eggs, #vegatables {width: 50%; box-sizing: border-box;}
+    .saturdayMarket, .eventSpaces, footer {padding-left: 30px; padding-right: 30px;}
+    .eggs, .vegetables {width: 100%; box-sizing: border-box;}
+    .eggs p, .vegetables p {padding: 0 81px;}
     #chickenPhoto, #squashPhoto {width: 100%;}
     .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto {width: 100%}
 }    
