@@ -77,15 +77,15 @@
 
     /* Footer */
     footer {margin-top: 59px;}
-    footer>div {display: flex; justify-content: space-between;}
-    footer nav, footer>div div {width: 32%;}
+    footer .container {display: flex; justify-content: space-between;}
+    footer nav, footer .container div {width: 32%;}
     footer ul {list-style: none; padding: 0;}
     footer nav li {margin-bottom: 1em;}
     footer nav a {text-decoration: none; color: black;}
     footer nav a:hover, footer nav a:focus {color: #980404;}
     .companyInfo p {text-align: center;}
-    .companyInfo p:nth-child(2) {margin-top: 40px;}
-    .companyInfo p:nth-child(3) {margin-top: 16px;}
+    .companyInfo .street {margin-top: 40px;}
+    .companyInfo .zone {margin-top: 16px;}
     .companyInfo #logoFirstWord {margin-top: -2px;}
     .companyInfo #logoSecondWord {margin-top: 5px;}
     .socialMedia {display: flex; justify-content: flex-end;}
