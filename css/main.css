@@ -90,7 +90,7 @@
     .companyInfo #logoSecondWord {margin-top: 4px;}
     .socialMedia {display: flex; justify-content: flex-end;}
     .socialMedia a {background-size: cover; width: 40px; min-height: 45px; max-height: 45px; display: block; margin-top: 15px;}
-    .socialMedia a:nth-child(n + 1) {margin-left: 18px;}
+    .socialMedia a:nth-child(n + 1) {margin-left: 19px;}
     #instagramIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -115px;}
     #twitterIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -250px;}
     #facebookIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -398px;}
@@ -119,16 +119,15 @@
 
 
 @media screen and (max-width: 1050px) {
-    .container {width: 100%;}
+    .container, #chickenPhoto, #squashPhoto, .eggs, .vegetables {width: 100%;}
     .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto {width: 100%}
 
     /* Virtual tour section*/
     .virtualTour {padding: 0 30px;}
     
     /* Farm fresh section */
-    .eggs, .vegetables {width: 100%; box-sizing: border-box;}
+    .eggs, .vegetables {box-sizing: border-box;}
     .eggs p, .vegetables p {padding: 0 81px;}
-    #chickenPhoto, #squashPhoto {width: 100%;}
 
     /* Saturday market */
     .saturdayMarket {margin-top: 61px; padding: 0 31px;}
