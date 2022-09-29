@@ -121,21 +121,22 @@
 @media screen and (max-width: 1050px) {
     .container, #chickenPhoto, #squashPhoto, .eggs, .vegetables {width: 100%;}
     .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto {width: 100%}
-
+    
     /* Virtual tour section*/
     .virtualTour {padding: 0 30px;}
     
     /* Farm fresh section */
     .eggs, .vegetables {box-sizing: border-box;}
-    .eggs p, .vegetables p {padding: 0 81px;}
+    .eggs p, .vegetables p {padding: 0 84px;}
 
     /* Saturday market */
-    .saturdayMarket {margin-top: 61px; padding: 0 31px;}
+    .saturdayMarket {margin-top: 61px; padding: 0 32px;}
     .saturdayMarket .columnTwoContent {margin: 0 33px;}
 
     /* Event spaces */
     .eventSpaces {padding-left: 33px; padding-right: 33px}
     .eventSpaces .columnTwoContent {margin: 0 50px;}
+    .eventSpaces .row {margin-top: -7px;}
 
     /* Footer */
     footer {padding: 0 33px;}
