@@ -43,15 +43,15 @@
     /* Saturday market */
     hr {display: block; border: 4px solid #FC0; width: 100%; box-sizing: border-box; margin-top: 38px;}
     .saturdayMarket {margin-top: 60px;}
+    .saturdayMarket p {margin: 0;}
     .saturdayMarket>div {display: flex; justify-content: space-between;}
-    .saturdayMarket>div:first-child div {width: 48%;}
-    .saturdayMarket h2 {margin: 0; line-height: 1.3; margin-bottom: 30px;}
-    .saturdayMarket>div div p {margin: 0;}
-    .saturdayMarket>div:last-child {margin-top: 40px;}
-    .saturdayMarket>div:last-child div {display: flex; flex-direction: column; align-items: center;}
+    .saturdayMarket .rowOne div {width: 48%;}
+    .saturdayMarket .rowOne h2 {margin: 0; line-height: 1.3; margin-bottom: 30px;}
+    .saturdayMarket .rowTwo {margin-top: 40px;}
+    .saturdayMarket .rowTwo div {display: flex; flex-direction: column; align-items: center;}
     .saturdayMarket .columnTwoContent {margin: 0 36px;}
-    .saturdayMarket>div:last-child a {width: calc(1040px * 0.31);}
-    .saturdayMarket>div:last-child div p {margin-top: 21px;}
+    .saturdayMarket .rowTwo a {width: calc(1040px * 0.31);}
+    .saturdayMarket .rowTwo div p {margin-top: 21px;}
     #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center; background-size: cover; width: 500px; min-height: 314px; display: block;}
     #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center; background-size: cover; min-height: 250px;}
     #facePaintingPhoto {background: url("../layout1-assets/face-painting.webp") no-repeat center; background-size: cover; min-height: 250px;}
