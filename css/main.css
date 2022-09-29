@@ -161,10 +161,9 @@
     hr {margin-top: 60px;}
 
     /* Event spaces */
-    .eventSpaces .row {flex-wrap: wrap; justify-content: space-between;}
+    .eventSpaces .row {flex-wrap: wrap; justify-content: space-between; gap: 22px 0;}
     .eventSpaces .row div {width: 45%; box-sizing: border-box;}
     .eventSpaces .columnTwoContent {margin: 0;}
-    .eventSpaces .columnThreeContent {margin-top: 22px;}
     
     /* Footer */
     footer {margin-top: 60px;}
