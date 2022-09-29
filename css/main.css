@@ -86,8 +86,8 @@
     .companyInfo p {text-align: center;}
     .companyInfo .street {margin-top: 40px;}
     .companyInfo .zone {margin-top: 16px;}
-    .companyInfo #logoFirstWord {margin-top: -2px;}
-    .companyInfo #logoSecondWord {margin-top: 5px;}
+    .companyInfo #logo {margin-top: 14px;}
+    .companyInfo #logoSecondWord {margin-top: 4px;}
     .socialMedia {display: flex; justify-content: flex-end;}
     .socialMedia a {background-size: cover; width: 40px; min-height: 45px; max-height: 45px; display: block; margin-top: 15px;}
     .socialMedia a:nth-child(n + 1) {margin-left: 18px;}
