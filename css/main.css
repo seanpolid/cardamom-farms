@@ -97,18 +97,19 @@
 
 /* For internet explorer 11 compatability */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    header {background-image: url("../layout1-assets/barn-background.jpg")}
-    #chickenPhoto {background-image: url("../layout1-assets/chicken.jpg")}
-    #squashPhoto {background-image: url("../layout1-assets/squash.jpg")}
-    #beansPhoto {background-image: url("../layout1-assets/beans.jpg")}
-    #guitarPhoto {background-image: url("../layout1-assets/guitar.jpg")}
-    #facePaintingPhoto {background-image: url("../layout1-assets/face-painting.jpg")}
-    #cauliflowerPhoto {background-image: url("../layout1-assets/cauliflower.jpg")}
-    #farmsharesPhoto {background-image: url("../layout1-assets/vegetables.jpg")}
-    .farmshares button {background-image: url("../layout1-assets/sprite.jpg")}
-    #instagramIcon {background-image: url("../layout1-assets/sprite.jpg")}
-    #twitterIcon {background-image: url("../layout1-assets/sprite.jpg")}
-    #facebookIcon {background-image: url("../layout1-assets/sprite.jpg")}
+
+    header {background-image: url("../layout1-assets/barn-background.jpg");}
+    #chickenPhoto {background-image: url("../layout1-assets/chicken.jpg");}
+    #squashPhoto {background-image: url("../layout1-assets/squash.jpg");}
+    #beansPhoto {background-image: url("../layout1-assets/beans.jpg");}
+    #guitarPhoto {background-image: url("../layout1-assets/guitar.jpg");}
+    #facePaintingPhoto {background-image: url("../layout1-assets/face-painting.jpg");}
+    #cauliflowerPhoto {background-image: url("../layout1-assets/cauliflower.jpg");}
+    #farmsharesPhoto {background-image: url("../layout1-assets/vegetables.jpg");}
+    .farmshares button {background-image: url("../layout1-assets/sprite.jpg");}
+    #instagramIcon {background-image: url("../layout1-assets/sprite.png");}
+    #twitterIcon {background-image: url("../layout1-assets/sprite.png");}
+    #facebookIcon {background-image: url("../layout1-assets/sprite.png");}
 
 }
 
