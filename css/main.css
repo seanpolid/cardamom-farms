@@ -198,8 +198,10 @@
     .saturdayMarket>div:last-child {flex-wrap: wrap; justify-content: space-between;}
     .saturdayMarket>div:last-child div {width: 48%;}
     .saturdayMarket .columnTwoContent {margin: 0;}
+    .saturdayMarket>div:last-child {gap: 40px 0;}
 
     /* Farmshares */
+    #farmsharesPhoto {margin-top: 78px;}
     .farmshares form {width: 80%;}
 
     /* Event spaces */
