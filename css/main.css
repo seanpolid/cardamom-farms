@@ -12,15 +12,16 @@
 @media screen {
 
     .container {width: 1040px; margin: 0 auto;}
-    
+    #logoFirstWord {font-weight: 700; font-size: 48px;}
+    #logoSecondWord {font-weight: 400; font-size: 38px;}
 
     /* Images and elements that span the whole background */
     header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%;}
 
     /* Masthead section*/
-    #logoFirstWord {font-weight: 700; font-size: 48px; margin-top: 14px;}
-    #logoSecondWord {font-weight: 400; font-size: 38px; margin-top: 4px;}
-    header nav ul {display: flex; justify-content: center; list-style: none; margin: 25px 0 0 -38px;}
+    header #logoFirstWord {margin-top: 16px;}
+    header #logoSecondWord {margin-top: 4px;}
+    header nav ul {display: flex; justify-content: center; list-style: none; margin: 23px 0 0 -40px;}
     header nav ul li {margin: 0 15px;}
     header nav a {text-decoration: none; color: #000; font: 700 16px/1 'Averia Serif Libre';}
     header nav a:hover, nav a:focus {color: #980404;}
