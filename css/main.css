@@ -67,25 +67,24 @@
 
     /* Event spaces */
     .eventSpaces {color: #fff; background-color: #228500; padding: 31px 0 60px; margin-top: 60px;}
-    .eventSpaces .row {display: flex; justify-content: center; margin-top: -5px;} 
+    .eventSpaces .row {display: flex; justify-content: space-between; margin-top: -5px;} 
     .eventSpaces .row div {width: 30%;}
-    .eventSpaces .columnTwoContent {margin: 0 52px;}
     .eventSpaces h3 {font-size: 16px;}
     .eventSpaces p {line-height: 1.6; font-weight: 300; margin-top: 17px;}
 
     /* Footer */
     footer {margin-top: 59px;}
     footer .container {display: flex; justify-content: space-between;}
-    footer nav, footer .container div {width: 32%;}
+    footer .container>div {width: 32%;}
     footer ul {list-style: none; padding: 0;}
     footer nav li {margin-bottom: 1em;}
     footer nav a {text-decoration: none; color: black;}
     footer nav a:hover, footer nav a:focus {color: #980404;}
     .companyInfo p {text-align: center;}
-    .companyInfo .street {margin-top: 40px;}
-    .companyInfo .zone {margin-top: 16px;}
     .companyInfo #logo {margin-top: 14px;}
     .companyInfo #logoSecondWord {margin-top: 4px;}
+    .companyInfo .street {margin-top: 40px;}
+    .companyInfo .zone {margin-top: 16px;}
     .socialMedia {display: flex; justify-content: flex-end;}
     .socialMedia a {background-size: cover; width: 40px; min-height: 45px; max-height: 45px; display: block; margin-top: 15px;}
     .socialMedia a:nth-child(n + 1) {margin-left: 19px;}
