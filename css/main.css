@@ -140,6 +140,7 @@
 
     /* Footer */
     footer {padding: 0 33px;}
+    .companyInfo {margin: 3px 0 0 3px;}
 
 }    
 
@@ -155,7 +156,7 @@
     .vegetables {margin-top: 60px;}
 
     /* Saturday market */
-    .saturdayMarket {padding: 0 32px; margin-top: 59px;}
+    .saturdayMarket {padding: 0 33px; margin-top: 59px;}
     .saturdayMarket .columnTwoContent {margin: 0 25px;}
     hr {margin-top: 60px;}
 
@@ -164,8 +165,9 @@
     .eventSpaces .row div {width: 45%; box-sizing: border-box;}
     .eventSpaces .columnTwoContent {margin: 0;}
     .eventSpaces .columnThreeContent {margin-top: 22px;}
+    
     /* Footer */
-
+    footer {margin-top: 60px;}
 }
 
 @media screen and (max-width: 700px) {
