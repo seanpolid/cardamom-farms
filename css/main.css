@@ -70,7 +70,7 @@
     .eventSpaces {color: #fff; background-color: #228500; padding: 31px 0 60px; margin-top: 60px;}
     .eventSpaces .row {display: flex; justify-content: space-between; margin-top: -5px;} 
     .eventSpaces .row div {width: 30%;}
-    .eventSpaces h3 {font-size: 16px;}
+    .eventSpaces h3 {font-size: 16px; text-transform: uppercase;}
     .eventSpaces p {line-height: 1.6; font-weight: 300; margin-top: 17px;}
 
     /* Footer */
