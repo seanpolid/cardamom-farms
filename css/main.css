@@ -243,6 +243,7 @@
     #logoSecondWord {font-size: 24pt;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
+    hr {display: none;}
     
     /* Masthead section*/
     header nav ul {display: none;}
