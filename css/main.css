@@ -43,6 +43,7 @@
     /* Saturday market */
     hr {display: block; border: 4px solid #FC0; width: 100%; box-sizing: border-box; margin-top: 38px;}
     .saturdayMarket {margin-top: 60px;}
+    .saturdayMarket p {text-transform: uppercase;}
     .saturdayMarket p, .saturdayMarket h2 {margin: 0;}
     .saturdayMarket a {width: 100%; display: block;}
     .saturdayMarket>div {display: flex; justify-content: space-between;}
