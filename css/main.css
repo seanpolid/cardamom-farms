@@ -198,16 +198,18 @@
 
     /* Farmshares */
     #farmsharesPhoto {margin-top: 78px;}
-    .farmshares form {width: 80%;}
+    .farmshares form {width: 80%; margin-top: 40px;}
     .farmshares p {width: 100%; padding: 0 30px; box-sizing: border-box;}
 
     /* Event spaces */
+    .eventSpaces {margin-top: 59px;}
     .eventSpaces .row {display: block;}
     .eventSpaces .row div {width: 100%;}
-    .eventSpaces .row div:nth-child(n + 2) {margin-top: 40px;}
+    .eventSpaces .row div:first-child {margin-top: 48px;}
+    .eventSpaces .row div:nth-child(n + 2) {margin-top: 55px;}
 
     /* Footer */
-
+    footer {margin-top: 58px;}
 }
 
 @media screen and (max-width: 500px) {
