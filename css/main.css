@@ -29,7 +29,7 @@
     /* Virtual tour section*/
     .virtualTour {display: flex; flex-direction: column; align-items: center; margin-top: 98px; margin-bottom: 114px; color: #980404;}
     .virtualTour h2 {color: #980404; margin-bottom: 49px; text-align: center;}
-    .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none;}
+    .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none; text-transform: uppercase;}
     .virtualTour a:hover, .virtualTour a:focus {background-color: #980404; color: #fff;}
 
     /* Farm fresh section */
