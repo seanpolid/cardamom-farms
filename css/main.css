@@ -214,13 +214,26 @@
 
 @media screen and (max-width: 500px) {
 
+    header nav ul {margin-top: 30px;}
+    header nav ul li:nth-child(n + 3) {margin-top: 22px;}
+
+    .virtualTour {margin-top: 60px; margin-bottom: 79px;}
+
     /* Saturday market */
-    .saturdayMarket div {display: block;}
+    .saturdayMarket {padding: 0 30px;}
+    .saturdayMarket .rowOne div, .saturdayMarket>div:last-child div {width: 100%;}
+    .saturdayMarket>div {flex-direction: column;}
     .saturdayMarket div a {width: 100%;}
+    .saturdayMarket .rowTwo div p {margin-top: 20px;}
+    #beansPhoto {margin-top: 57px;}
+
+    .farmshares form {width: 80%; margin-top: 43px;}
  
     /* Footer */
     footer div:nth-child(n) {width: 100%;}
-    .socialMedia {justify-content: center;}
+    footer ul li {text-align: center;}
+    footer .companyInfo {margin-top: 44px;}
+    .socialMedia {justify-content: center; margin-top: 40px;}
 }
 
 @media print {
