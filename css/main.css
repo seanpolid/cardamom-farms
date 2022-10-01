@@ -173,8 +173,8 @@
     .virtualTour {padding: 0 20px;}
 
     /* Footer */
-    footer>div {flex-wrap: wrap; justify-content: space-between;} 
-    footer>div nav, footer>div div {width: 48%;}
+    footer .container {flex-wrap: wrap; justify-content: space-between;} 
+    footer .container nav, footer .container div {width: 48%;}
     .companyInfo {padding-right: 48px;}
     .companyInfo .street {margin-top: 37px;}
     .socialMedia {justify-content: flex-start; margin: 2px 0 0 -4px;}
