@@ -244,7 +244,7 @@
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
     hr {display: none;}
-    
+
     /* Masthead section*/
     header nav ul {display: none;}
 
@@ -257,7 +257,7 @@
     .farmshares input, .farmshares button {display: none;}
 
     /* Footer */
-    footer {margin-top: 30px;}
+    footer {margin-top: 50pt;}
     footer nav {display: none;}
     footer #logo {display: none;}
 
