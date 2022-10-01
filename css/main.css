@@ -79,7 +79,7 @@
     footer .container>div {width: 32%;}
     footer ul {list-style: none; padding: 0;}
     footer nav li {margin-bottom: 1em;}
-    footer nav a {text-decoration: none; color: black;}
+    footer nav a {text-decoration: none; color: black; text-transform: uppercase;}
     footer nav a:hover, footer nav a:focus {color: #980404;}
     .companyInfo p {text-align: center;}
     .companyInfo #logo {margin-top: 14px;}
