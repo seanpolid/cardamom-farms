@@ -199,6 +199,7 @@
     /* Farmshares */
     #farmsharesPhoto {margin-top: 78px;}
     .farmshares form {width: 80%;}
+    .farmshares p {width: 100%; padding: 0 30px; box-sizing: border-box;}
 
     /* Event spaces */
     .eventSpaces .row {display: block;}
