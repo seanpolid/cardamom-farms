@@ -6,6 +6,7 @@
     body {font: 400 16px/1.3 'Noto Sans JP',  sans-serif; color: #000; margin: 0; padding: 0;}
     h2 {font: 300 35px/1 'Averia Serif Libre', cursive;}
     .logo {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
+    h2, p, li {text-align: center;}
 
 }
 
@@ -34,13 +35,13 @@
 
     /* Virtual tour section*/
     .virtualTour {margin-top: 98px; margin-bottom: 114px; color: #980404;}
-    .virtualTour h2 {color: #980404; margin-bottom: 49px; text-align: center;}
+    .virtualTour h2 {color: #980404; margin-bottom: 49px;}
     .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none; text-transform: uppercase;}
     .virtualTour a:hover, .virtualTour a:focus {background-color: #980404; color: #fff;}
 
     /* Farm fresh section */
-    .farmFresh div { width: 50%;}
-    .farmFresh p {text-align: center; line-height: 1.8; padding: 0 80px;}
+    .farmFresh div {width: 50%;}
+    .farmFresh p {line-height: 1.8; padding: 0 80px;}
     .farmFresh h2 {margin: 40px 0 4px;}
     #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center / cover;}
     #squashPhoto {background: url("../layout1-assets/squash.webp") no-repeat center / cover;}
@@ -64,9 +65,9 @@
 
     /* Farmshares */
     #farmsharesPhoto {background: url("../layout1-assets/vegetables.webp") no-repeat center / cover; min-height: 409px; margin-top: 59px;}
-    .farmshares h2 {text-align: center; background-color: #530001; padding: 60px 0; margin: 0; text-transform: uppercase;}
+    .farmshares h2 {background-color: #530001; padding: 60px 0; margin: 0; text-transform: uppercase;}
     .farmshares h2 a {color: #fff; font-size: 40px; text-decoration: none;}
-    .farmshares p {margin: 60px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive; text-align: center;}
+    .farmshares p {margin: 60px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive;}
     .farmshares form {width: 50%; margin: 41px auto 0; position: relative; left: 0; top: 0;}
     .farmshares input {width: 100%; border: 0; padding: 10px 5px; font-size: 12.5px; letter-spacing: 0.2px; border-bottom: 1px solid #363636;}
     .farmshares button {position: absolute; width: 60px; height: 20px; background: transparent url("../layout1-assets/sprite.webp") 33px 0px / cover; border: 0; top: 5px; right: 1px; cursor: pointer;}
@@ -84,7 +85,6 @@
     footer nav li {margin-bottom: 1em;}
     footer nav a {text-transform: uppercase;}
     footer nav a:hover, footer nav a:focus {color: #980404;}
-    .companyInfo p {text-align: center;}
     .companyInfo .logo {margin-top: 14px;}
     .companyInfo .logoSecondWord {margin-top: 4px;}
     .companyInfo .street {margin-top: 40px;}
@@ -189,7 +189,7 @@
     /* Masthead section*/
     header nav ul {flex-wrap: wrap; margin-top: 34px;}
     header nav ul li:nth-child(n + 3) {margin-top: 20px;}
-    header nav ul li {width: 50%; margin: 0; text-align: center;}
+    header nav ul li {width: 50%; margin: 0;}
     
     /* Virtual tour */
     .virtualTour a {margin-top: 1px;}
@@ -238,7 +238,6 @@
  
     /* Footer */
     footer div:nth-child(n) {width: 100%;}
-    footer ul li {text-align: center;}
     footer .companyInfo {margin-top: 44px;}
     .socialMedia {justify-content: center; margin-top: 40px;}
 
