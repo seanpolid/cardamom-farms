@@ -209,6 +209,7 @@
 
     /* Footer */
     footer {margin-top: 58px;}
+    footer ul {padding-left: 1px;}
 }
 
 @media screen and (max-width: 500px) {
