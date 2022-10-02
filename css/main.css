@@ -34,7 +34,7 @@
 
     /* Farm fresh section */
     .farmFresh {display: flex; flex-direction: row; justify-content: center;} 
-    .farmFresh div {display: flex; flex-direction: column; align-items: center; width: calc(1040px * 0.5);}
+    .farmFresh div {display: flex; flex-direction: column; align-items: center; width: 50%;}
     .farmFresh p {text-align: center; line-height: 1.8; padding: 0 80px;}
     .farmFresh h2 {margin: 40px 0 4px;}
     #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center; background-size: cover; min-height: 400px; width: 520px; box-sizing: border-box;}
@@ -52,7 +52,7 @@
     .saturdayMarket .rowTwo {margin-top: 40px;}
     .saturdayMarket .rowTwo div {display: flex; flex-direction: column; align-items: center; width: 31%;}
     .saturdayMarket .rowTwo div p {margin-top: 21px;}
-    #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center; background-size: cover; min-height: 314px; }
+    #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center; background-size: cover; min-height: 314px; width: 100%;}
     #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center; background-size: cover; min-height: 250px;}
     #facePaintingPhoto {background: url("../layout1-assets/face-painting.webp") no-repeat center; background-size: cover; min-height: 250px;}
     #cauliflowerPhoto {background: url("../layout1-assets/cauliflower.webp") no-repeat center; background-size: cover; min-height: 250px;}
@@ -110,17 +110,19 @@
     #twitterIcon {background-image: url("../layout1-assets/sprite.png");}
     #facebookIcon {background-image: url("../layout1-assets/sprite.png");}
 
-    .farmFresh p {width: inherit;}
-
+    /* Prevents horizontal scrollbar from appearing at breakpoints */
+    .virtualTour h2 {width: inherit;}
+    .farmFresh p {width: 100%; box-sizing: border-box;}
 }
 
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1060px) {
     .container, #chickenPhoto, #squashPhoto, .eggs, .vegetables, .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto, #beansPhoto, .saturdayMarket>div:first-child:nth-child(n) {width: 100%}
     
     /* Virtual tour & saturday market */
-    .virtualTour, .saturdayMarket, footer {padding: 0 30px;}
+    .virtualTour, footer {padding: 0 30px;}
+    .eventSpaces, .saturdayMarket {padding-left: 33px; padding-right: 33px;}
     
     /* Farm fresh section */
     .eggs, .vegetables {box-sizing: border-box;}
@@ -131,7 +133,6 @@
     .saturdayMarket .columnTwoContent {margin: 0 33px;}
 
     /* Event spaces */
-    .eventSpaces {padding-left: 33px; padding-right: 33px}
     .eventSpaces .columnTwoContent {margin: 0 50px;}
     .eventSpaces .row {margin-top: -7px;}
 
