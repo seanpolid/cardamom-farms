@@ -275,9 +275,9 @@
     header {margin-bottom: 30pt;}
     .logoFirstWord {font-size: 36pt;}
     .logoSecondWord {font-size: 28pt; font-weight: 400;}
-    
+
     /* Saturday market */
-    .saturdayMarket>div:first-child p:nth-child(n + 2), .columnTwoContent p, .columnThreeContent p {margin: 0;}
+    .saturdayMarket .rowOne p:nth-child(n + 2), .columnTwoContent p, .columnThreeContent p {margin: 0;}
     .columnOneContent p {margin-bottom: 0;}
 
     /* Footer */
