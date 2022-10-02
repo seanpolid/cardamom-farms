@@ -15,10 +15,8 @@
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
 
-    /* Images and elements that span the whole background */
-    header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%;}
-
-    /* Masthead section*/
+    /* Masthead section */
+    header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35% / cover ; height: 583px; width: 100%;}
     header .logoFirstWord {margin-top: 16px;}
     header .logoSecondWord {margin-top: 4px;}
     header nav ul {display: flex; justify-content: center; list-style: none; margin: 23px 0 0 -40px;}
@@ -238,9 +236,11 @@
     footer ul li {text-align: center;}
     footer .companyInfo {margin-top: 44px;}
     .socialMedia {justify-content: center; margin-top: 40px;}
+
 }
 
 @media print {
+
     body {font-size: 12pt;}
     a {color: #000;}
     .logoFirstWord {font-size: 28pt;}
