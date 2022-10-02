@@ -5,22 +5,22 @@
     header, main, section, nav, footer, aside, article {display: block; box-sizing: border-box;}
     body {font: 400 16px/1.3 'Noto Sans JP',  sans-serif; color: #000; margin: 0; padding: 0;}
     h2 {font: 300 35px/1 'Averia Serif Libre', cursive;}
-    #logo {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
+    .logo {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
 
 }
 
 @media screen {
 
     .container {width: 1040px; margin: 0 auto;}
-    #logoFirstWord {font-weight: 700; font-size: 48px;}
-    #logoSecondWord {font-weight: 400; font-size: 38px;}
+    .logoFirstWord {font-weight: 700; font-size: 48px;}
+    .logoSecondWord {font-weight: 400; font-size: 38px;}
 
     /* Images and elements that span the whole background */
     header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35%; background-size: cover; height: 583px; width: 100%;}
 
     /* Masthead section*/
-    header #logoFirstWord {margin-top: 16px;}
-    header #logoSecondWord {margin-top: 4px;}
+    header .logoFirstWord {margin-top: 16px;}
+    header .logoSecondWord {margin-top: 4px;}
     header nav ul {display: flex; justify-content: center; list-style: none; margin: 23px 0 0 -40px;}
     header nav ul li {margin: 0 15px;}
     header nav a {text-decoration: none; color: #000; font: 700 16px/1 'Averia Serif Libre';}
@@ -82,8 +82,8 @@
     footer nav a {text-decoration: none; color: black; text-transform: uppercase;}
     footer nav a:hover, footer nav a:focus {color: #980404;}
     .companyInfo p {text-align: center;}
-    .companyInfo #logo {margin-top: 14px;}
-    .companyInfo #logoSecondWord {margin-top: 4px;}
+    .companyInfo .logo {margin-top: 14px;}
+    .companyInfo .logoSecondWord {margin-top: 4px;}
     .companyInfo .street {margin-top: 40px;}
     .companyInfo .zone {margin-top: 16px;}
     .socialMedia {display: flex; justify-content: flex-end;}
@@ -240,8 +240,8 @@
 @media print {
     body {font-size: 12pt;}
     a {color: #000;}
-    #logoFirstWord {font-size: 28pt;}
-    #logoSecondWord {font-size: 24pt;}
+    .logoFirstWord {font-size: 28pt;}
+    .logoSecondWord {font-size: 24pt;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
     hr {display: none;}
@@ -260,6 +260,6 @@
     /* Footer */
     footer {margin-top: 50pt;}
     footer nav {display: none;}
-    footer #logo {display: none;}
+    footer .logo {display: none;}
 
 }
