@@ -253,7 +253,7 @@
 @media print {
 
     body {font-size: 12pt;}
-    a {color: #000;}
+    a {color: #000; text-decoration: underline;}
     .logoFirstWord {font-size: 28pt;}
     .logoSecondWord {font-size: 24pt;}
     h2 {font-size: 18pt;}
