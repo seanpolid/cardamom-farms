@@ -265,15 +265,17 @@
 
     body {font-size: 12pt;}
     a {color: #000; text-decoration: underline;}
-    header {margin-bottom: 30pt;}
-    .logoFirstWord {font-size: 36pt;}
-    .logoSecondWord {font-size: 28pt; font-weight: 400;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
 
     /* Common changes */
     header nav ul, hr, .farmshares input, .farmshares button, footer nav, footer .logo {display: none;}
 
+    /* Masthead */ 
+    header {margin-bottom: 30pt;}
+    .logoFirstWord {font-size: 36pt;}
+    .logoSecondWord {font-size: 28pt; font-weight: 400;}
+    
     /* Saturday market */
     .saturdayMarket>div:first-child p:nth-child(n + 2), .columnTwoContent p, .columnThreeContent p {margin: 0;}
     .columnOneContent p {margin-bottom: 0;}
