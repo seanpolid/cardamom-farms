@@ -265,8 +265,9 @@
 
     body {font-size: 12pt;}
     a {color: #000; text-decoration: underline;}
-    .logoFirstWord {font-size: 28pt;}
-    .logoSecondWord {font-size: 24pt;}
+    header {margin-bottom: 30pt;}
+    .logoFirstWord {font-size: 36pt;}
+    .logoSecondWord {font-size: 28pt; font-weight: 400;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
 
