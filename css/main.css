@@ -164,9 +164,10 @@
     hr {margin-top: 60px;}
 
     /* Event spaces */
-    .eventSpaces .row {flex-wrap: wrap; justify-content: space-between; gap: 22px 0;}
+    .eventSpaces .row {flex-wrap: wrap; justify-content: space-between;}
     .eventSpaces .row div {width: 45%;}
     .eventSpaces .columnTwoContent {margin: 0;}
+    .eventSpaces .columnThreeContent {margin-top: 22px;}
     
     /* Footer */
     footer {margin-top: 60px;}
@@ -204,9 +205,10 @@
     .virtualTour a {margin-top: 1px;}
 
     /* Saturday market */
-    .saturdayMarket .rowTwo {flex-wrap: wrap; justify-content: space-between; gap: 40px 0;}
+    .saturdayMarket .rowTwo {flex-wrap: wrap; justify-content: space-between;}
     .saturdayMarket .rowTwo div {width: 48%;}
     .saturdayMarket .columnTwoContent {margin: 0;}
+    .saturdayMarket .columnThreeContent {margin-top: 40px;}
 
     /* Farmshares */
     #farmsharesPhoto {margin-top: 78px;}
@@ -241,6 +243,7 @@
     /* Saturday market */
     .saturdayMarket {padding: 0 30px;}
     .saturdayMarket>div {flex-direction: column;}
+    .saturdayMarket .rowTwo div:nth-child(n + 2) {margin-top: 40px;}
     .saturdayMarket .rowTwo div p {margin-top: 20px;}
     #beansPhoto {margin-top: 57px;}
 
