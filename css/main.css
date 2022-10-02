@@ -247,22 +247,13 @@
     .logoSecondWord {font-size: 24pt;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
-    hr {display: none;}
-
-    /* Masthead section*/
-    header nav ul {display: none;}
+    header nav ul, hr, .farmshares input, .farmshares button, footer nav, footer .logo {display: none;}
 
     /* Saturday market */
-    .saturdayMarket>div:first-child p:nth-child(n + 2) {margin: 0;}
+    .saturdayMarket>div:first-child p:nth-child(n + 2), .columnTwoContent p, .columnThreeContent p {margin: 0;}
     .columnOneContent p {margin-bottom: 0;}
-    .columnTwoContent p, .columnThreeContent p {margin: 0;}
-
-    /* Farmshares */
-    .farmshares input, .farmshares button {display: none;}
 
     /* Footer */
     footer {margin-top: 50pt;}
-    footer nav {display: none;}
-    footer .logo {display: none;}
 
 }
