@@ -18,24 +18,28 @@
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
 
+    /* Common layouts */
+    header nav ul, .farmFresh {display: flex; justify-content: center;}
+    .virtualTour, .farmFresh div, .saturdayMarket .rowTwo div {display: flex; flex-direction: column; align-items: center;}
+    .saturdayMarket>div, .eventSpaces .row, footer .container {display: flex; justify-content: space-between;}
+
     /* Masthead section */
     header {background: url("../layout1-assets/barn-background.webp") no-repeat 50% 35% / cover ; height: 583px;}
     header .logoFirstWord {margin-top: 16px;}
     header .logoSecondWord {margin-top: 4px;}
-    header nav ul {display: flex; justify-content: center; margin-top: 23px;}
+    header nav ul {margin-top: 23px;}
     header nav ul li {margin: 0 15px;}
     header nav a {font: 700 16px/1 'Averia Serif Libre';}
     header nav a:hover, nav a:focus {color: #980404;}
 
     /* Virtual tour section*/
-    .virtualTour {display: flex; flex-direction: column; align-items: center; margin-top: 98px; margin-bottom: 114px; color: #980404;}
+    .virtualTour {margin-top: 98px; margin-bottom: 114px; color: #980404;}
     .virtualTour h2 {color: #980404; margin-bottom: 49px; text-align: center;}
     .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none; text-transform: uppercase;}
     .virtualTour a:hover, .virtualTour a:focus {background-color: #980404; color: #fff;}
 
     /* Farm fresh section */
-    .farmFresh {display: flex; flex-direction: row; justify-content: center;} 
-    .farmFresh div {display: flex; flex-direction: column; align-items: center; width: 50%;}
+    .farmFresh div { width: 50%;}
     .farmFresh p {text-align: center; line-height: 1.8; padding: 0 80px;}
     .farmFresh h2 {margin: 40px 0 4px;}
     #chickenPhoto {background: url("../layout1-assets/chicken.webp") no-repeat center / cover;}
@@ -47,12 +51,10 @@
     .saturdayMarket {margin-top: 60px;}
     .saturdayMarket p {text-transform: uppercase;}
     .saturdayMarket p, .saturdayMarket h2 {margin: 0;}
-    .saturdayMarket a {display: block;}
-    .saturdayMarket>div {display: flex; justify-content: space-between;}
     .saturdayMarket .rowOne div {width: 48%;}
     .saturdayMarket .rowOne h2 {line-height: 1.3; margin-bottom: 30px;}
     .saturdayMarket .rowTwo {margin-top: 40px;}
-    .saturdayMarket .rowTwo div {display: flex; flex-direction: column; align-items: center; width: 31%;}
+    .saturdayMarket .rowTwo div {width: 31%;}
     .saturdayMarket .rowTwo div p {margin-top: 21px;}
     #beansPhoto {background: url("../layout1-assets/beans.webp") no-repeat center / cover; min-height: 314px;}
     #guitarPhoto {background: url("../layout1-assets/guitar.webp") no-repeat center / cover;}
@@ -71,14 +73,13 @@
 
     /* Event spaces */
     .eventSpaces {color: #fff; background-color: #228500; padding: 31px 0 60px; margin-top: 60px;}
-    .eventSpaces .row {display: flex; justify-content: space-between; margin-top: -5px;} 
+    .eventSpaces .row {margin-top: -5px;} 
     .eventSpaces .row div {width: 30%;}
     .eventSpaces h3 {font-size: 16px; text-transform: uppercase;}
     .eventSpaces p {line-height: 1.6; font-weight: 300; margin-top: 17px;}
 
     /* Footer */
     footer {margin-top: 59px;}
-    footer .container {display: flex; justify-content: space-between;}
     footer .container>div {width: 32%;}
     footer nav li {margin-bottom: 1em;}
     footer nav a {text-transform: uppercase;}
@@ -188,7 +189,7 @@
     /* Masthead section*/
     header nav ul {flex-wrap: wrap; margin-top: 34px;}
     header nav ul li:nth-child(n + 3) {margin-top: 20px;}
-    header nav ul li {width: 50%; margin: 0; box-sizing: border-box; text-align: center;}
+    header nav ul li {width: 50%; margin: 0; text-align: center;}
     
     /* Virtual tour */
     .virtualTour a {margin-top: 1px;}
