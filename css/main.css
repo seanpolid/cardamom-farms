@@ -3,10 +3,11 @@
 @media all {
 
     header, main, section, nav, footer, aside, article, div, hr, .image  {display: block; box-sizing: border-box;}
+    h2, p, li {text-align: center;}
     body {font: 400 16px/1.3 'Noto Sans JP',  sans-serif; color: #000; margin: 0; padding: 0;}
     h2 {font: 300 35px/1 'Averia Serif Libre', cursive;}
+    a {text-decoration: none;}
     .logo {font-family: 'Economica', sans-serif; font-variant: small-caps; line-height: 35px; display: flex; flex-direction: column; align-items: center; margin: 0;}
-    h2, p, li {text-align: center;}
 
 }
 
@@ -14,7 +15,7 @@
 
     header, hr, .image {width: 100%;}
     nav ul {list-style: none; padding: 0;}
-    nav a {text-decoration: none; color: #000;}
+    nav a {color: #000;}
     .container {width: 1040px; margin: 0 auto;}
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
@@ -36,7 +37,7 @@
     /* Virtual tour section*/
     .virtualTour {margin-top: 98px; margin-bottom: 114px; color: #980404;}
     .virtualTour h2 {color: #980404; margin-bottom: 49px;}
-    .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-decoration: none; text-transform: uppercase;}
+    .virtualTour a {padding: 15px 30px; border: 1px solid #980404; color: #980404; font-size: 14px; text-transform: uppercase;}
     .virtualTour a:hover, .virtualTour a:focus {background-color: #980404; color: #fff;}
 
     /* Farm fresh section */
@@ -66,7 +67,7 @@
     /* Farmshares */
     #farmsharesPhoto {background: url("../layout1-assets/vegetables.webp") no-repeat center / cover; min-height: 409px; margin-top: 59px;}
     .farmshares h2 {background-color: #530001; padding: 60px 0; margin: 0; text-transform: uppercase;}
-    .farmshares h2 a {color: #fff; font-size: 40px; text-decoration: none;}
+    .farmshares h2 a {color: #fff; font-size: 40px;}
     .farmshares p {margin: 60px auto 40px; width: 80%; font: 300 30px/1.3 'Averia Serif Libre',cursive;}
     .farmshares form {width: 50%; margin: 41px auto 0; position: relative; left: 0; top: 0;}
     .farmshares input {width: 100%; border: 0; padding: 10px 5px; font-size: 12.5px; letter-spacing: 0.2px; border-bottom: 1px solid #363636;}
