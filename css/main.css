@@ -10,6 +10,7 @@
 
 }
 
+
 @media screen {
 
     header, hr, .image {width: 100%;}
@@ -96,7 +97,9 @@
     #instagramIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -115px;}
     #twitterIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -250px;}
     #facebookIcon {background: url("../layout1-assets/sprite.webp") no-repeat -6px -398px;}
+
 }
+
 
 /* For internet explorer 11 compatability */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -117,8 +120,8 @@
     /* Prevents horizontal scrollbar from appearing at breakpoints */
     .virtualTour h2 {width: inherit;}
     .farmFresh p {width: 100%; box-sizing: border-box;}
-}
 
+}
 
 
 @media screen and (max-width: 1060px) {
@@ -145,6 +148,7 @@
 
 }    
 
+
 @media screen and (max-width: 800px) {
 
     /* Virtual tour section*/
@@ -169,7 +173,9 @@
     /* Footer */
     footer {margin-top: 60px;}
     footer ul {padding-left: 2px;}
+
 }
+
 
 @media screen and (max-width: 700px) {
 
@@ -183,6 +189,7 @@
     .socialMedia {justify-content: flex-start; margin: 2px 0 0 -4px;}
     
 }
+
 
 @media screen and (max-width: 600px) {
 
@@ -217,7 +224,9 @@
     /* Footer */
     footer {margin-top: 58px; padding: 0 28px;}
     footer ul {padding: 0;}
+
 }
+
 
 @media screen and (max-width: 500px) {
 
@@ -249,6 +258,7 @@
     .socialMedia {justify-content: center; margin-top: 40px;}
 
 }
+
 
 @media print {
 
