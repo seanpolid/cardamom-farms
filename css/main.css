@@ -18,7 +18,7 @@
     .container {width: 1040px; margin: 0 auto;}
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
-    .farmshares h2, .farmFresh p, .farmshares p, .companyInfo p {text-align: center;}
+    .virtualTour h2, .farmshares h2, .farmFresh p, .farmshares p, .companyInfo p {text-align: center;}
 
     /* Common layouts */
     header nav ul, .farmFresh {display: flex; justify-content: center;}
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 1060px) {
 
-    /* Common width and padding changes */
+    /* Common changes */
     .container, .eggs, .vegetables {width: 100%;}
     .virtualTour, footer {padding: 0 30px;}
     .eventSpaces, .saturdayMarket {padding-left: 33px; padding-right: 33px;}
@@ -173,8 +173,8 @@
 
 @media screen and (max-width: 700px) {
 
-    /* Virtual tour section*/
-    .virtualTour {padding: 0 20px;}
+    /* Virtual tour */
+    .virtualTour {padding: 0 10px;}
 
     /* Footer */
     footer .container {flex-wrap: wrap; justify-content: space-between;} 
@@ -186,8 +186,12 @@
 
 @media screen and (max-width: 600px) {
 
+    /* Common changes */
+    .saturdayMarket, .eventSpaces, .farmshares p {padding-left: 28px; padding-right: 28px;}
+    .farmshares p, .eventSpaces .row div {width: 100%;}
+
     /* Masthead section*/
-    header nav ul {flex-wrap: wrap; margin-top: 34px;}
+    header nav ul {flex-wrap: wrap; margin-top: 34px; text-align: center;}
     header nav ul li:nth-child(n + 3) {margin-top: 20px;}
     header nav ul li {width: 50%; margin: 0;}
     
@@ -195,50 +199,53 @@
     .virtualTour a {margin-top: 1px;}
 
     /* Saturday market */
-    .saturdayMarket>div:last-child {flex-wrap: wrap; justify-content: space-between;}
-    .saturdayMarket>div:last-child div {width: 48%;}
+    .saturdayMarket .rowTwo {flex-wrap: wrap; justify-content: space-between; gap: 40px 0;}
+    .saturdayMarket .rowTwo div {width: 48%;}
     .saturdayMarket .columnTwoContent {margin: 0;}
-    .saturdayMarket>div:last-child {gap: 40px 0;}
 
     /* Farmshares */
     #farmsharesPhoto {margin-top: 78px;}
     .farmshares form {width: 80%; margin-top: 40px;}
-    .farmshares p {width: 100%; padding: 0 30px; box-sizing: border-box;}
+    .farmshares p {box-sizing: border-box;}
 
     /* Event spaces */
     .eventSpaces {margin-top: 59px;}
     .eventSpaces .row {display: block;}
-    .eventSpaces .row div {width: 100%;}
     .eventSpaces .row div:first-child {margin-top: 48px;}
     .eventSpaces .row div:nth-child(n + 2) {margin-top: 55px;}
 
     /* Footer */
-    footer {margin-top: 58px;}
-
+    footer {margin-top: 58px; padding: 0 28px;}
+    footer ul {padding: 0;}
 }
 
 @media screen and (max-width: 500px) {
 
+    /* Common changes */
+    .saturdayMarket .rowOne div, .saturdayMarket .rowTwo>div, footer div:nth-child(n) {width: 100%;}
+
+    /* Masthead */
     header nav ul {margin-top: 30px;}
     header nav ul li:nth-child(n + 3) {margin-top: 22px;}
 
-    .virtualTour {margin-top: 60px; margin-bottom: 79px;}
+    /* Virtual tour */
+    .virtualTour {margin-top: 60px; margin-bottom: 79px; padding: 0 30px;}
 
     /* Saturday market */
     .saturdayMarket {padding: 0 30px;}
-    .saturdayMarket .rowOne div, .saturdayMarket>div:last-child div {width: 100%;}
     .saturdayMarket>div {flex-direction: column;}
-    .saturdayMarket div a {width: 100%;}
     .saturdayMarket .rowTwo div p {margin-top: 20px;}
     #beansPhoto {margin-top: 57px;}
 
+    /* Farmshares */
     .farmshares form {width: 80%; margin-top: 43px;}
 
-    .eventSpaces {padding-left: 31px;}
+    /* Event spaces */
+    .eventSpaces {padding-left: 29px;}
  
     /* Footer */
-    footer div:nth-child(n) {width: 100%;}
     footer .companyInfo {margin-top: 44px;}
+    footer ul li {text-align: center;}
     .socialMedia {justify-content: center; margin-top: 40px;}
 
 }
@@ -251,6 +258,8 @@
     .logoSecondWord {font-size: 24pt;}
     h2 {font-size: 18pt;}
     h3 {font-size: 15pt;}
+
+    /* Common changes */
     header nav ul, hr, .farmshares input, .farmshares button, footer nav, footer .logo {display: none;}
 
     /* Saturday market */
