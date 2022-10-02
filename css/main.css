@@ -117,19 +117,17 @@
 
 
 @media screen and (max-width: 1050px) {
-    .container, #chickenPhoto, #squashPhoto, .eggs, .vegetables {width: 100%;}
-    .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto, #beansPhoto {width: 100%}
+    .container, #chickenPhoto, #squashPhoto, .eggs, .vegetables, .saturdayMarket>div:last-child div, #guitarPhoto, #facePaintingPhoto, #cauliflowerPhoto, #beansPhoto, .saturdayMarket>div:first-child:nth-child(n) {width: 100%}
     
-    /* Virtual tour section*/
-    .virtualTour {padding: 0 30px;}
+    /* Virtual tour & saturday market */
+    .virtualTour, .saturdayMarket, footer {padding: 0 30px;}
     
     /* Farm fresh section */
     .eggs, .vegetables {box-sizing: border-box;}
     .eggs p, .vegetables p {padding: 0 84px;}
 
     /* Saturday market */
-    .saturdayMarket {margin-top: 61px; padding: 0 32px;}
-    .saturdayMarket>div:first-child:nth-child(n) {width: 100%}
+    .saturdayMarket {margin-top: 61px;}
     .saturdayMarket .columnTwoContent {margin: 0 33px;}
 
     /* Event spaces */
@@ -138,7 +136,7 @@
     .eventSpaces .row {margin-top: -7px;}
 
     /* Footer */
-    footer {padding: 0 33px;}
+    footer ul {padding-left: 5px;}
     .companyInfo {margin: 3px 0 0 3px;}
 
 }    
@@ -229,6 +227,8 @@
     #beansPhoto {margin-top: 57px;}
 
     .farmshares form {width: 80%; margin-top: 43px;}
+
+    .eventSpaces {padding-left: 31px;}
  
     /* Footer */
     footer div:nth-child(n) {width: 100%;}
