@@ -1,2 +1,5 @@
 # cardamom-farms
-This is the first layout assignment in my web development class. The goal is to recreate the provided screenshots with HTML and CSS, provide support for IE, and implement responsive design with flexbox.
+This is the first layout assignment in my web development class. The goals are:
+  1. Recreate the provided screenshots with HTML and CSS
+  2. Provide support for IE
+  3. Implement responsive design with flexbox
