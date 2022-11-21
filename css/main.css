@@ -14,6 +14,7 @@
     header, hr, .image {width: 100%;}
     nav ul {list-style: none; padding: 0;}
     nav a {color: #000;}
+    abbr {text-decoration: none;}
     .container {width: 1040px; margin: 0 auto;}
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
