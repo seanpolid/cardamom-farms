@@ -18,6 +18,7 @@
     .container {width: 1040px; margin: 0 auto;}
     .logoFirstWord {font-weight: 700; font-size: 48px;}
     .logoSecondWord {font-weight: 400; font-size: 38px;}
+    .line {border-top: 7px solid #FC0; margin-top: 40px;}
     .virtualTour h2, .farmshares h2, .farmFresh p, .farmshares p, .companyInfo p {text-align: center;}
 
     /* Common layouts */
@@ -49,7 +50,7 @@
     #chickenPhoto, #squashPhoto {height: 400px;}
 
     /* Saturday market */
-    .saturdayMarket {margin-top: 60px; border-top: 7px solid #FC0; padding-top: 61px;}
+    .saturdayMarket {margin-top: 60px;}
     .saturdayMarket p {text-transform: uppercase;}
     .saturdayMarket p, .saturdayMarket h2 {margin: 0;}
     .saturdayMarket .rowOne div {width: 48%;}
@@ -149,6 +150,8 @@
 
 @media screen and (max-width: 800px) {
 
+    .line {margin-top: 60px;}
+    
     /* Virtual tour section*/
     .virtualTour {margin-top: 79px; margin-bottom: 97px;}
 
@@ -161,7 +164,6 @@
     /* Saturday market */
     .saturdayMarket {margin-top: 59px;}
     .saturdayMarket .columnTwoContent {margin: 0 25px;}
-    hr {margin-top: 60px;}
 
     /* Event spaces */
     .eventSpaces .row {flex-wrap: wrap; justify-content: space-between;}
