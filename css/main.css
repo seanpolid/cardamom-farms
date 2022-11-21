@@ -48,8 +48,7 @@
     #chickenPhoto, #squashPhoto {min-height: 400px;}
 
     /* Saturday market */
-    hr {border: 4px solid #FC0; margin-top: 38px;}
-    .saturdayMarket {margin-top: 60px;}
+    .saturdayMarket {margin-top: 60px; border-top: 7px solid #FC0; padding-top: 61px;}
     .saturdayMarket p {text-transform: uppercase;}
     .saturdayMarket p, .saturdayMarket h2 {margin: 0;}
     .saturdayMarket .rowOne div {width: 48%;}
